@@ -1,38 +1,206 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+body {
+  background-color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+.page-section {
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.hr-line {
+  border-bottom: 2px solid #070707;
+  display: inline-block;
+}
+/************************* Homepage **************************/
+
+.about-page {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.bg-img {
+  background-image: url("https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  padding-top: 250px;
+}
+.bg-img .row {
+  margin-bottom: 32px;
+}
+.bg-img:before {
+  content: "";
+  position: absolute;
+  background-color: #201f1f;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.8;
+  height: 100%;
+  width: 100%;
+}
+.about-page .hr-line {
+  border-bottom: 2px solid #ffffff;
+  display: inline-block;
+}
+.content_intro {
+  letter-spacing: 2px;
+  line-height: 2;
+  font-size: 36px;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+.conetent_title {
+  font-size: 60px;
+  line-height: 1.5;
+  font-weight: 800;
+  padding-top: 35px;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 25px;
+  position: relative;
+}
+p {
+  padding-bottom: 65px;
+  line-height: 30px;
+}
+/************************* Button CSS **************************/
+
+.page-section button {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  background: #ff5a5f;
+  color: #fff;
+  padding: 15px 30px 15px 30px;
+  border: 1px solid #ff5a5f;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.page-section button:hover {
+  color: #ff5a5f;
+}
+.page-section button::after {
+  content: "";
+  background: #fff;
+  position: absolute;
+  z-index: -1;
+  padding: 0.85em 0.75em;
+  display: block;
+}
+.page-section button[class^="grow"]::after {
+  transition: all 0.3s ease;
+}
+button[class^="grow"]:hover::after {
+  transition: all 0.3s ease-out;
+}
+.page-section button.grow_skew_forward::after {
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+}
+.page-section button.grow_skew_forward:hover::after {
+  transform: skewX(-45deg) scale(1, 1);
+}
+/************************* Values **************************/
+
+.values-col {
+  margin-top: 75px;
+}
+.values-col:hover .values-title {
+  cursor: pointer;
+  color: #ff5a5f;
+}
+.description {
+  padding: 25px 0px 40px 0px;
+}
+/************************* Team **************************/
+.team-page {
+  background-color: #f8f9fc;
+  width: 100%;
+}
+.team-mem-item {
+  margin-top: 30px;
+  transition: 0.4s;
+}
+.member-pic {
+  overflow: hidden;
+}
+.member-pic:hover img {
+  /* transform: translateY(-10px);
+  transition: transform 1s; */
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  transform: scale(1.05);
+}
+.member-info {
+  text-align: center;
+  background-color: white;
+  padding: 15px 10px;
+}
+.member-info h5 {
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
+}
+.member-info .designation {
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  color: #080b1a;
 }
 
-.App-link {
-  color: #61dafb;
+.member-pic img {
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/************************* Careers **************************/
+
+.left-col {
+  background-color: #ff5a5f1f;
+  padding: 35px 45px 50px;
+}
+.right-col {
+  background-color: #f8f9fc;
+}
+
+.work-title {
+  padding-bottom: 35px;
+}
+.input-group {
+  display: block;
+}
+.subscribe-group {
+  display: flex;
+}
+
+.form-control {
+  width: 71%;
+  height: calc(2.7em + 0.75rem + 2px);
+  border-radius: 0;
+  border: 1px solid #ff5a5f;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0px;
+  padding-left: 30px;
+}
+.subscribe-btn {
+  transition: none;
+  background-color: #ff5a5f;
+  border: none;
+  color: #fff;
+  padding: 15px 22px;
 }

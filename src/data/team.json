@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "Lucy Anderson",
+    "designation": "CEO & Founder",
+    "profilePic": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3387&q=80"
+  },
+  {
+    "id": 2,
+    "name": "James Farnando",
+    "designation": "HR & Admin",
+    "profilePic": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Sara Mathue",
+    "designation": "Software Engineer",
+    "profilePic": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Thomas Nancy",
+    "designation": "Creative Designer",
+    "profilePic": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Jeff Bezos",
+    "designation": "UI/UX Designer",
+"profilePic": "https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+},
+  {
+    "id": 6,
+    "name": "Tom Arnault",
+    "designation": "Web Designer",
+    "profilePic": "https://images.unsplash.com/photo-1544168190-79c17527004f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=988&q=80"
+  },
+  {
+    "id": 7,
+    "name": "Katy Buffett",
+    "designation": "Creative Supporter",
+    "profilePic": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=988&q=80"
+  },
+  {
+    "id": 8,
+    "name": "Marry Ellison",
+    "designation": "Front End Developer",
+    "profilePic": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+  },
+
+  {
+    "id": 9,
+    "name": "Lucy Anderson",
+    "designation": "CEO & Founder",
+    "profilePic": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3387&q=80"
+  },
+  {
+    "id": 10,
+    "name": "James Farnando",
+    "designation": "HR & Admin",
+    "profilePic": "https://images.unsplash.com/photo-1523452617300-93ebbf63ed61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+  },
+  {
+    "id": 13,
+    "name": "Sara Mathue",
+    "designation": "Software Engineer",
+    "profilePic": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+  },
+  {
+    "id": 14,
+    "name": "Thomas Nancy",
+    "designation": "Creative Designer",
+    "profilePic": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+  },
+  {
+    "id": 15,
+    "name": "Jeff Bezos",
+    "designation": "UI/UX Designer",
+"profilePic": "https://images.unsplash.com/photo-1514222788835-3a1a1d5b32f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+},
+  {
+    "id": 16,
+    "name": "Tom Arnault",
+    "designation": "Web Designer",
+    "profilePic": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+  },
+  {
+    "id": 17,
+    "name": "Katy Buffett",
+    "designation": "Creative Supporter",
+    "profilePic": "https://images.unsplash.com/photo-1523824921871-d6f1a15151f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+  },
+  {
+    "id":18,
+    "name": "Marry Ellison",
+    "designation": "Front End Developer",
+    "profilePic": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+  }
+  
+
+]
