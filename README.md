@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## React Project was deployed
+
+Click this link [https://ray-nura.github.io/website/](https://ray-nura.github.io/website/) to view it in browser.
+
 ## Available Scripts
 
 In the project directory, you can run:
